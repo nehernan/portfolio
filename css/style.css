@@ -69,6 +69,8 @@ body {
 
 .servicios .card {
     margin-bottom: 1rem;
+    width: auto;
+    height: 320px;
 }
 
 .banner h1 {
