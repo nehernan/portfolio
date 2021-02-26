@@ -2,7 +2,7 @@ window.sr = ScrollReveal ();
 
 /* NAVBAR & HEADER */
 
-sr.reveal('.banner', {
+sr.reveal('.animacionBanner', {
     duration: 1500,
 });
 sr.reveal('.navbar', {
