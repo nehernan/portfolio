@@ -63,6 +63,10 @@ body {
     border-radius: 50%;
 }
 
+.descripcion {
+    text-align:justify;
+	text-justify:inter-word;
+}
 
 
 .progress {
