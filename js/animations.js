@@ -42,6 +42,11 @@ sr.reveal('.tituloSeccion', {
     origin: 'bottom',
     distance: '30px'
 });
+sr.reveal('.tituloSeccionBorder', {
+    duration: 2500,
+    origin: 'left',
+    distance: '50px'
+});
 sr.reveal('.entradaRight-titulo', {
     duration: 2000,
     origin: 'right',

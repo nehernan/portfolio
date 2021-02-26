@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     font-family: 'Montserrat', sans-serif;
     color: #696969;
@@ -20,7 +22,7 @@ body {
 
 .nav-item {
     text-align: center;
-    margin: 0 20px;
+    margin: 0 10px 0 10px;
 }
 
 .banner {
@@ -52,7 +54,7 @@ body {
 .perfil img {
     max-width: 400px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .progress {
@@ -63,26 +65,54 @@ body {
 
 .servicios .icono {
     margin-top: 1rem;
-    color: #6A5ACD;
-    font-size: 4rem;
+    color: #fff;
+    background-color: #FF7700;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 .servicios .card {
     margin-bottom: 1rem;
     width: auto;
-    height: 320px;
+    height: 300px;
 }
+
 
 .banner h1 {
     font-weight: 700;
 }
 
 .tituloSeccion {
-    color: #6A5ACD;
+    color: #0000ff;
     font-size: 2rem;
     font-weight: 800;
     margin-top: 90px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
+.border {
+    position: absolute;
+    background: #FF7700;
+    display: block;
+    width: 100px;
+    height: 4px;
+    bottom:0;
+    left: auto; 
+    right: auto;
+    bottom: 15px;
+}
+
 
 .subTitulo {
     color: #696969;
@@ -119,7 +149,7 @@ body {
 }
 .card {
     box-shadow: 5px 5px 8px rgba(163, 163, 163, 0.2);
-    box-shadow: inset hoff voff blur #000;
+    /*box-shadow: inset hoff voff blur #000;*/
 }
 
 .datosContacto {
@@ -146,6 +176,17 @@ body {
     transition: 0.3s;
 }
 
+.iconsRedesFooter a {
+    display:inline-flex;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.iconsRedesFooter a:hover {
+    color: #FF7700;
+    transition: 0.3s;
+}
+
+
 .footer {
     background-color: #000000;
     color: #ffffff;
@@ -170,9 +211,18 @@ body {
 .carousel-control-prev,
 .carousel-control-next {
     top: 45%;
-    background-color: #000;
-    max-width: 2em;
+    max-width: 3em;
     height: 3em;
+    background-color: #000;
+    border-radius: 100%;
+    
+}
+
+.carousel-control-next {
+   left: 95%;
+}
+.carousel-control-prev {
+   left: -5%;
 }
 
 
@@ -298,33 +348,3 @@ body {
 .formulario__grupo-incorrecto .formulario__input {
     border: 3px solid #bb2929;
 }
-
-
-/* ANIMACIONES
-
-.animated {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
-
-.fast {
-    -webkit-animation-duration: 0.6s;
-    animation-duration: 0.6s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.fadeIn {
-    animation-name: fadeIn;
-} */
