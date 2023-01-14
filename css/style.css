@@ -42,11 +42,13 @@ body {
 .habilidades,
 .servicios,
 .experiencia
- {
+{
     min-height: 10vh;
-    background-size: cover;
-    background-position: center;
     margin-top: 90px;
+}
+
+.experiencia {
+    margin-bottom: 90px;
 }
 
 .banner {
@@ -162,7 +164,7 @@ body {
 
 .experiencia img {
     width: auto;
-    max-height: 100%;
+    max-height: 100px;
 }
 
 .jop-description h5.subTitulo {
