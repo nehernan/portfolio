@@ -85,6 +85,11 @@ sr.reveal('.entradaBottom-three', {
     origin: 'bottom',
     distance: '50px'
 });
+sr.reveal('.entradaBottom-four', {
+    duration: 4500,
+    origin: 'bottom',
+    distance: '50px'
+});
 
 sr.reveal('.entradaBottom', {
     duration: 2500,

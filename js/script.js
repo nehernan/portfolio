@@ -1,9 +1,11 @@
 const btnVermas1 = document.getElementById('btnVermas1');
 const btnVermas2 = document.getElementById('btnVermas2');
 const btnVermas3 = document.getElementById('btnVermas3');
+const btnVermas4 = document.getElementById('btnVermas4');
 const text1 = document.getElementById('text1');
 const text2 = document.getElementById('text2');
 const text3 = document.getElementById('text3');
+const text4 = document.getElementById('text4');
 
 btnVermas1.addEventListener('click', () => {
    if(text1.classList.contains('fa-angle-down')){
@@ -30,5 +32,14 @@ btnVermas2.addEventListener('click', () =>{
      }else{
          text3.classList.remove('fa-angle-up');
          text3.classList.add('fa-angle-down');
+    }
+ });
+ btnVermas4.addEventListener('click', () => {
+    if(text4.classList.contains('fa-angle-down')){
+         text4.classList.remove('fa-angle-down');
+         text4.classList.add('fa-angle-up');
+     }else{
+         text4.classList.remove('fa-angle-up');
+         text4.classList.add('fa-angle-down');
     }
  });
